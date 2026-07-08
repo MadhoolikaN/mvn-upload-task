@@ -1,18 +1,44 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>hello-world-library</artifactId>
+
+  <groupId>io.github.MadhoolikaN</groupId>
+  <artifactId>mvn-upload-task</artifactId>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>hello-world-library</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+
+  <name>mvn-upload-task</name>
+  <description>A simple Hello World Maven library</description>
+  <url>https://github.com/MadhoolikaN/mvn-upload-task</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>MadhoolikaN</id>
+      <name>Madhoolika Nagesh</name>
+      <email>madhoolika.nagesh@wissen.com</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/MadhoolikaN/mvn-upload-task.git</connection>
+    <developerConnection>scm:git:ssh://github.com:MadhoolikaN/mvn-upload-task.git</developerConnection>
+    <url>https://github.com/MadhoolikaN/mvn-upload-task</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
 </project>
